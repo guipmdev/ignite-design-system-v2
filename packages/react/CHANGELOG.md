@@ -1,5 +1,11 @@
 # @guipmdev-ignite-ui/react
 
+## 2.2.0
+
+### Minor Changes
+
+- Add tooltip and toast components
+
 ## 2.1.0
 
 ### Minor Changes
