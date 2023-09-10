@@ -15,6 +15,7 @@ export function Tooltip({ children, tooltipText, ...props }: TooltipProps) {
 
         <TooltipContent sideOffset={4} {...props}>
           {tooltipText}
+
           <TooltipArrow />
         </TooltipContent>
       </RadixTooltip.Root>

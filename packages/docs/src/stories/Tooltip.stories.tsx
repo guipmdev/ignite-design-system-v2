@@ -2,10 +2,10 @@ import type { StoryObj, Meta } from '@storybook/react'
 import { Button, Tooltip, TooltipProps } from '@guipmdev-ignite-ui/react'
 
 export default {
-  title: 'Form/Tooltip',
+  title: 'Feedback/Tooltip',
   component: Tooltip,
   args: {
-    children: <Button>Send</Button>,
+    children: <Button css={{ margin: '$10 0' }}>Send</Button>,
     tooltipText: 'Button tooltip'
   },
   argTypes: {
@@ -14,11 +14,6 @@ export default {
         type: null,
       }
     },
-    tooltipText: {
-      control: {
-        type: 'text',
-      }
-    }
   },
 } as Meta<TooltipProps>
 
