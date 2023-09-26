@@ -1,11 +1,11 @@
 {
   "name": "@guipmdev-ignite-ui/eslint-config",
-  "version": "1.0.0",
-  "license": "MIT",
-  "private": true,
+  "description": "ESLint configuration for the Ignite UI design system",
   "main": "index.js",
+  "private": true,
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.1.0",
     "eslint": "^8.48.0"
-  }
+  },
+  "license": "MIT"
 }

@@ -1,7 +1,7 @@
 {
   "name": "@guipmdev-ignite-ui/docs",
+  "description": "Documentation for Ignite UI design system",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
@@ -39,5 +39,19 @@
     "storybook": "^7.4.0",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guipmdev/ignite-design-system-v2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guipmdev/ignite-design-system-v2/issues"
+  },
+  "author": {
+    "name": "Guilherme Preveda Milék",
+    "email": "guipmdev@gmail.com",
+    "url": "https://guipm.dev/"
+  },
+  "license": "MIT",
+  "homepage": "https://guipmdev.github.io/ignite-design-system-v2/"
 }
